@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Club Player Details</title>
+    <link rel="stylesheet" href="playerStyles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#players">Player Details</a></li>
+            <li><a href="#news">News</a></li>
+        </ul>
+    </nav>
+    <div id="players">
+        <h1>Player Details</h1>
+        <form id="playerForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="initial">Name with Initial:</label><br>
+            <input type="text" id="initial" name="initial"><br>
+            <label for="usingName">Using Name:</label><br>
+            <input type="text" id="usingName" name="usingName"><br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address"><br>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br>
+            <label for="nic">NIC No:</label><br>
+            <input type="text" id="nic" name="nic"><br>
+            <label for="regNo">Registration No:</label><br>
+            <input type="text" id="regNo" name="regNo"><br>
+            <label for="issueDate">Issue Date:</label><br>
+            <input type="date" id="issueDate" name="issueDate"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <div id="playerDetails"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
